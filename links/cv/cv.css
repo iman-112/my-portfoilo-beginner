@@ -1,0 +1,30 @@
+.cv-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+object{
+    width: 100%;
+    height: 80vh;
+ 
+}
+embed{
+    width:100%;
+    height:95%;
+}
+button{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7rem;
+    margin-top: .5rem;
+    padding: .5rem .5rem;
+    border: 2px solid #8866fe;
+    border-radius: 5px;
+
+}
+button:hover{
+    border-color: gray;
+}

@@ -1,0 +1,711 @@
+
+.container-main{
+    width: 80%;
+    height: max-content;
+    margin: 3rem auto;
+    display: flex;
+    
+}
+.left-container{
+    width: 40%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+.img-container{
+    width: 300px;
+    height: 300px;
+    border-left: 20px solid #8766ff63;
+    border-top: 10px solid #8766ff63;
+    border-radius: 1rem;
+    border-bottom: 20px solid #8766ff63;
+    border-right: 5px solid #8766ff63;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.img-container img{
+    width: 300px;
+    height: 300px;
+    /* padding-right: .5rem; */
+    object-fit: cover;
+    box-shadow: -27px 17px 110px 2px gray;
+    border-radius: 1rem;
+}
+.links-container{
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+.links-container ul{
+    display: flex;
+    list-style: none;
+}
+.links-container ul li{
+    margin: 2rem 1rem;
+   
+}
+
+.links-container ul li a i{
+    font-size: 1.5rem;
+    transition: .3s;
+}
+.links-container ul li a i:hover{
+    color: gray;
+}
+
+.right-container{
+    width: 50%;
+    height: 80vh;
+    margin: auto;
+}
+
+.right-container .about-head-text h1{
+    font-size: 1.5rem;
+    color: gray;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.right-container .about-paragraph{
+    font-size: 1.1rem;
+    font-family: lato;
+}
+.right-container .about-skills{
+    margin-top: 2rem;
+    
+}
+.right-container .about-skills h3{
+    color: gray;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    
+}
+.right-container .about-skills ul{
+    display: flex;
+    list-style: none;
+}
+.right-container .about-skills ul li{
+    margin-left: .2rem;
+    margin-right: 2rem;
+    position: relative;
+}
+.right-container .about-skills ul li i{
+    font-size: 2rem;
+    color: gray;
+    position: relative;
+}
+.right-container .about-skills ul li  span{
+    font-size: .6rem;
+    color: gray;
+    position: absolute;
+    top: 0;
+    padding: 0 .5rem;
+}
+.about-from{
+    margin-top: 2rem;
+}
+.about-from ul{
+    display: flex;
+    list-style: none;
+}
+.about-from ul li{
+    padding: .7rem 1rem;
+    margin-left: 1rem;
+    border:5px solid #8766ff63;
+    border-radius: 25px;
+}
+.about-from ul li i{
+    font-size: 1rem;
+    color: #8866FE;
+    margin-right: .2rem;
+}
+.about-from ul li span{
+    color: gray;
+}
+.about-from ul li span{
+    font-size: 1rem;
+}
+
+
+@media screen and (max-width:1000px) {
+    
+.container-main{
+    width: 100%;
+    height: 80vh;
+    margin: 3rem auto;
+    display: flex;
+
+}
+.left-container{
+    width: 40%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+.img-container{
+    width: 300px;
+    height: 300px;
+    border-left: 20px solid #8766ff63;
+    border-top: 10px solid #8766ff63;
+    border-radius: 1rem;
+    border-bottom: 20px solid #8766ff63;
+    border-right: 5px solid #8766ff63;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.img-container img{
+    width: 260px;
+    height: 270px;
+    /* padding-right: .5rem; */
+    object-fit: cover;
+    box-shadow: -27px 17px 110px 2px gray;
+    border-radius: 1rem;
+}
+.links-container{
+    margin-left: 1rem;
+}
+.links-container ul{
+    display: flex;
+    list-style: none;
+}
+.links-container ul li{
+    margin: 1rem 1rem;
+   
+}
+
+.links-container ul li a i{
+    font-size: 1.4rem;
+    transition: .3s;
+}
+.links-container ul li a i:hover{
+    color: gray;
+}
+
+.right-container{
+    width: 50%;
+    height: 80vh;
+    margin: auto;
+}
+
+.right-container .about-head-text h1{
+    font-size: 1.5rem;
+    color: gray;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.right-container .about-paragraph{
+    font-size: 1.2rem;
+    font-family: lato;
+    margin: auto;
+    width: 70%;
+    
+}
+.right-container .about-skills{
+    margin-top: 2rem;
+    
+}
+.right-container .about-skills h3{
+    color: gray;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    
+}
+.right-container .about-skills ul{
+    display: flex;
+    list-style: none;
+}
+.right-container .about-skills ul li{
+    margin-left: .2rem;
+    margin-right: 2rem;
+    position: relative;
+}
+.right-container .about-skills ul li i{
+    font-size: 2rem;
+    color: gray;
+    position: relative;
+}
+.right-container .about-skills ul li  span{
+    font-size: .6rem;
+    color: gray;
+    position: absolute;
+    top: 0;
+    padding: 0 .5rem;
+}
+.about-from{
+    margin-top: 2rem;
+}
+.about-from ul{
+    display: flex;
+    list-style: none;
+}
+.about-from ul li{
+    padding: .7rem 1rem;
+    margin-left: 1rem;
+    border:5px solid #8766ff63;
+    border-radius: 25px;
+}
+.about-from ul li i{
+    font-size: 1rem;
+    color: #8866FE;
+    margin-right: .2rem;
+}
+.about-from ul li span{
+    color: gray;
+}
+.about-from ul li span{
+    font-size: 1rem;
+}
+
+
+}
+@media screen and (max-width:800px) {
+    
+    .container-main{
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .left-container{
+        width: max-content;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        
+    }
+    .img-container{
+        width: 300px;
+        height: 300px;
+        border-left: 20px solid #8766ff63;
+        border-top: 10px solid #8766ff63;
+        border-radius: 1rem;
+        border-bottom: 20px solid #8766ff63;
+        border-right: 5px solid #8766ff63;
+        padding-left: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+    .img-container img{
+        width: 260px;
+        height: 270px;
+        /* padding-right: .5rem; */
+        object-fit: cover;
+        box-shadow: -27px 17px 110px 2px gray;
+        border-radius: 1rem;
+    }
+    .links-container{
+        margin-left: 1.5rem;
+        margin-bottom: 1rem;
+        border-bottom: 1px solid gray;
+       
+    }
+    .links-container ul{
+        display: flex;
+        list-style: none;
+    }
+    .links-container ul li{
+        margin: 1rem 1rem;
+       
+    }
+    
+    .links-container ul li a i{
+        font-size: 1.4rem;
+        transition: .3s;
+    }
+    .links-container ul li a i:hover{
+        color: gray;
+    }
+    
+    .right-container{
+        width: 50%;
+        height: 80vh;
+        margin: auto;
+        
+    }
+    
+    .right-container .about-head-text h1{
+        font-size: 1.5rem;
+        color: gray;
+        cursor: pointer;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    .right-container .about-paragraph{
+        font-size: 1.2rem;
+        font-family: lato;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+        border-bottom: .1px solid gray;
+        padding-bottom: 1rem;
+        
+    }
+    .right-container .about-skills{
+        margin-top: 3rem;
+        width: 100%;
+        border-bottom: 1px solid gray;
+        padding-bottom: 1rem;
+    }
+    .right-container .about-skills h3{
+        color: gray;
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+        
+    }
+    .right-container .about-skills ul{
+        display: flex;
+        list-style: none;
+        text-align: left;
+    }
+    .right-container .about-skills ul li{
+     
+       
+        position: relative;
+    }
+    .right-container .about-skills ul li i{
+        font-size: 2rem;
+        color: gray;
+        position: relative;
+    }
+    .right-container .about-skills ul li  span{
+        font-size: .6rem;
+        color: gray;
+        position: absolute;
+        top: 0;
+        padding: 0 .5rem;
+    }
+    .about-from{
+        margin-top: 2rem;
+
+    }
+    .about-from ul{
+        display: flex;
+        list-style: none;
+    }
+    .about-from ul li{
+        padding: 0 1rem;
+        margin-left: .5rem;
+        border:2px solid #8766ff63;
+        border-radius: 10px;
+    }
+    .about-from ul li i{
+        font-size: 1rem;
+        color: #8866FE;
+        margin-right: .2rem;
+    }
+    .about-from ul li span{
+        color: gray;
+    }
+    .about-from ul li span{
+        font-size: 1rem;
+    }
+    
+    
+    }
+    @media screen and (max-width:500px) {
+    
+        .container-main{
+            width: 100%;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .left-container{
+            width: 100%;
+            height: 80vh;
+            display: unset;
+            flex-direction: column;
+            margin: auto;
+        }
+        .img-container{
+            width: 200px;
+            height: 200px;
+            border-left: 20px solid #8766ff63;
+            border-top: 10px solid #8766ff63;
+            border-radius: 1rem;
+            border-bottom: 20px solid #8766ff63;
+            border-right: 5px solid #8766ff63;
+            padding-left: 2rem;
+            padding-top: 1rem;
+            padding-bottom: 2rem;
+            margin: auto;
+        }
+        .img-container img{
+            width: 200px;
+            height: 200px;
+            /* padding-right: .5rem; */
+            object-fit: cover;
+            box-shadow: -27px 17px 110px 2px gray;
+            border-radius: 1rem;
+            
+        }
+        .links-container{
+            margin-left: 1.5rem;
+            margin-bottom: 2rem;
+            margin: 2rem auto;
+        }
+        .links-container ul{
+            display: flex;
+            list-style: none;
+        }
+        .links-container ul li{
+            margin: 1rem 1rem;
+           
+        }
+        
+        .links-container ul li a i{
+            font-size: 1.4rem;
+            transition: .3s;
+        }
+        .links-container ul li a i:hover{
+            color: gray;
+        }
+        
+        .right-container{
+            width: 50%;
+            height: 80vh;
+            margin: auto;
+        }
+        
+        .right-container .about-head-text h1{
+            font-size: 1.5rem;
+            color: gray;
+            cursor: pointer;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        .right-container .about-paragraph{
+            font-size: 1.2rem;
+            font-family: lato;
+            margin: auto;
+            width: 100%;
+            text-align: center;
+            
+        }
+        .right-container .about-skills{
+            margin-top: 3rem;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .right-container .about-skills h3{
+            color: gray;
+            margin-bottom: 2rem;
+            font-size: 1.5rem;
+            
+        }
+        .right-container .about-skills ul{
+           display: unset;
+            width: 100%;
+            list-style: none;
+            align-items: center;
+            text-align: left;
+            justify-content: center;
+        }
+        .right-container .about-skills ul li{
+            font-size: unset;
+           margin-top: 1rem;
+            position: unset;
+        }
+        .right-container .about-skills ul li i{
+            font-size: .5rem;
+            color: gray;
+            position: unset;
+            
+        }
+        .right-container .about-skills ul li  span{
+            display: none;
+            font-size: .6rem;
+            color: gray;
+            position: unset;
+            top: 0;
+            padding: 0 .5rem;
+        }
+        .about-from{
+            margin-top: 2rem;
+    
+        }
+        .about-from ul{
+            list-style: none;
+            width: max-content;
+        }
+        .about-from ul li{
+            padding: 0 1rem;
+            margin-left: .5rem;
+            border:2px solid #8766ff63;
+            border-radius: 10px;
+            display: flex;
+
+        }
+        .about-from ul li i{
+            font-size: .5rem;
+            color: #8866FE;
+            margin-right: 0rem;
+            flex-wrap: wrap;
+        }
+        .about-from ul li span{
+            color: gray;
+        }
+        .about-from ul li span{
+            font-size: 1rem;
+        }
+        
+        .updated{
+            display: none ;
+        }
+    
+        }
+        
+    @media screen and (max-width:670px) {
+    
+        .container-main{
+            width: 100%;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .left-container{
+            width: 100%;
+            height: 80vh;
+            display: unset;
+            flex-direction: column;
+            margin: auto;
+        }
+        .img-container{
+            width: 200px;
+            height: 200px;
+            border-left: 20px solid #8766ff63;
+            border-top: 10px solid #8766ff63;
+            border-radius: 1rem;
+            border-bottom: 20px solid #8766ff63;
+            border-right: 5px solid #8766ff63;
+            padding-left: 2rem;
+            padding-top: 1rem;
+            padding-bottom: 2rem;
+            margin: auto;
+        }
+        .img-container img{
+            width: 200px;
+            height: 200px;
+            /* padding-right: .5rem; */
+            object-fit: cover;
+            box-shadow: -27px 17px 110px 2px gray;
+            border-radius: 1rem;
+            
+        }
+        .links-container{
+            margin-left: 1.5rem;
+            margin-bottom: 2rem;
+            margin: 2rem auto;
+        }
+        .links-container ul{
+            display: flex;
+            list-style: none;
+            
+            justify-content: center;
+        }
+        .links-container ul li{
+            margin: 1rem 1rem;
+           
+        }
+        
+        .links-container ul li a i{
+            font-size: 1.4rem;
+            transition: .3s;
+        }
+        .links-container ul li a i:hover{
+            color: gray;
+        }
+        
+        .right-container{
+            width: 50%;
+            height: 80vh;
+            margin: auto;
+        }
+        
+        .right-container .about-head-text h1{
+            font-size: 1.5rem;
+            color: gray;
+            cursor: pointer;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        .right-container .about-paragraph{
+            font-size: 1.2rem;
+            font-family: lato;
+            margin: auto;
+            width: 100%;
+            text-align: center;
+            
+        }
+        .right-container .about-skills{
+            margin-top: 3rem;
+            width: 100%;
+        }
+        .right-container .about-skills h3{
+            color: gray;
+            margin-bottom: 2rem;
+            font-size: 1.5rem;
+            
+        }
+        .right-container .about-skills ul{
+           display: unset;
+            width: 100%;
+            list-style: none;
+            text-align: left;
+            
+        }
+        .right-container .about-skills ul li{
+            display: inline-block;
+           
+            position: unset;
+        }
+        .right-container .about-skills ul li i{
+            font-size: 2rem;
+            color: gray;
+            position: unset;
+        }
+        .right-container .about-skills ul li  span{
+            display: none;
+            font-size: .6rem;
+            color: gray;
+            position: unset;
+            top: 0;
+            padding: 0 .5rem;
+        }
+        .about-from{
+            margin-top: 2rem;
+    
+        }
+        .about-from ul{
+            display: unset;
+            list-style: none;
+            width: max-content;
+        }
+        .about-from ul li{
+            padding: 0 1rem;
+            margin-left: .5rem;
+            border:2px solid #8766ff63;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        .about-from ul li i{
+            font-size: .5rem;
+            color: #8866FE;
+            margin-right: 0rem;
+            flex-wrap: wrap;
+        }
+        .about-from ul li span{
+            color: gray;
+        }
+        .about-from ul li span{
+            font-size: 1rem;
+        }
+        
+        .updated{
+            display: none ;
+        }
+    
+        }

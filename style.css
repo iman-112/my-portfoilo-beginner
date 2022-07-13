@@ -1,0 +1,222 @@
+
+main{
+    width: 100%;
+    height:88vh;
+    background-image: url(../img/setup-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.main-content{
+    width: 100%;
+    padding-top: 10rem;
+}
+.main-content .text-content{
+    display: flex;
+    border: 5px solid #8866ff;
+    text-align: center;
+    width: 600px;
+    height: 100px;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    transition: .3s all;
+}
+.main-content .text-content:hover{
+    border-color: white;
+
+}
+.main-content .text-content h1{
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+.main-info{
+    text-align: center;
+    justify-content: center;
+   
+    display: flex;
+    
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    align-items: center;
+    position: relative;
+   
+    transition: .3s all;
+    
+}
+.main-info p{
+    font-size: 1.4rem;
+    color: rgba(255, 255, 255, 0.664);
+}
+main .border-main{
+    width: 180px;
+    height: 210px;
+    position: absolute;
+    background-color: #8866ff;
+    bottom: 0;
+    left: 0;
+   
+    border-top-right-radius: 200rem;
+}
+.word {
+    margin: auto;
+    color: white;
+    font: 700 normal 2.5em 'tahoma';
+    text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+    
+  }
+  #container-text {
+    position: absolute;
+   margin: auto;
+    top: 0;
+    left: 32%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    filter: url(#threshold) blur(0.6px);
+}
+
+#text1,
+#text2 {
+    
+    position: absolute;
+    
+    width: 100%;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+
+    user-select: none;
+}
+
+@media screen and (max-width:700px) {
+    main{
+        width: 100%;
+        height:86vh;
+        background-image: url(../img/setup-image.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    
+    }
+    .main-content{
+        width: 100%;
+        padding-top: 10rem;
+    }
+    .main-content .text-content{
+        display: flex;
+        border: 5px solid #8866ff;
+        text-align: center;
+        width: 500px;
+        height: 100px;
+        justify-content: center;
+        margin: auto;
+        color: white;
+        align-items: center;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: .3s all;
+    }
+    .main-content .text-content:hover{
+        border-color: white;
+    
+    }
+    .main-content .text-content h1{
+        font-family: sans-serif;
+        font-size: 2rem;
+    }
+    .main-info{
+        text-align: center;
+        justify-content: center;
+        padding-top: 2rem;
+    }
+    .main-info p{
+        font-size: 1.4rem;
+        color: rgba(255, 255, 255, 0.664);
+    }
+    main .border-main{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        background-color: #8866ff;
+        bottom: 0;
+        left: 0;
+       
+        border-top-right-radius: 200rem;
+    }
+}
+
+@media screen and (max-width:550px) {
+    main{
+        width: 100%;
+        height:88vh;
+        background-image: url(../img/setup-image.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    
+    }
+    .main-content{
+        width: 100%;
+        padding-top: 6.5rem;
+        
+    }
+    .main-content .text-content{
+        display: flex;
+        border: 5px solid #8866ff;
+        text-align: center;
+        width: 300px;
+        height: 100px;
+        justify-content: center;
+        margin: auto;
+        color: white;
+        align-items: center;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 3s all;
+        margin-top: 2rem;
+    }
+    .main-content .text-content:hover{
+        border-color: white;
+    
+    }
+    .main-content .text-content h1{
+        font-family: sans-serif;
+        font-size: 1.7rem;
+    }
+    .main-info{
+        text-align: center;
+        justify-content: center;
+        padding-top: 2rem;
+        
+    }
+    .main-info p{
+        font-size: 1.4rem;
+        color: rgba(255, 255, 255, 0.664);
+        
+    }
+    main .border-main{
+        width: 180px;
+        height: 210px;
+        position: absolute;
+        background-color: #8866ff;
+        bottom: 0;
+        left: 0;
+        display: none;
+            border-top-right-radius: 200rem;
+    }
+    #container-text{
+        margin-top: 0rem;
+    }
+    
+}
